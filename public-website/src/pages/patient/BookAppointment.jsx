@@ -213,7 +213,7 @@ const BookAppointment = () => {
                                                 {doc.image_url ? (
                                                     <>
                                                         <img
-                                                            src={`${import.meta.env.VITE_API_ROOT || 'http://localhost:5000'}/${doc.image_url}`}
+                                                            src={`${import.meta.env.VITE_API_ROOT || 'https://clinixa-frontend.onrender.com'}/${doc.image_url}`}
                                                             alt={doc.name}
                                                             className="w-full h-full object-cover"
                                                             onError={(e) => {
@@ -358,7 +358,7 @@ const BookAppointment = () => {
                                             {selectedDoctor?.image_url ? (
                                                 <>
                                                     <img
-                                                        src={`${import.meta.env.VITE_API_ROOT || 'http://localhost:5000'}/${selectedDoctor.image_url}`}
+                                                        src={`${import.meta.env.VITE_API_ROOT || 'https://clinixa-frontend.onrender.com'}/${selectedDoctor.image_url}`}
                                                         alt={selectedDoctor.name}
                                                         className="w-full h-full object-cover"
                                                         onError={(e) => {

@@ -101,7 +101,7 @@ const AppointmentReview = () => {
                                     <div className="w-16 h-16 bg-primary/10 rounded-2xl flex items-center justify-center text-primary overflow-hidden">
                                         {image_url ? (
                                             <img
-                                                src={`${import.meta.env.VITE_API_ROOT || 'http://localhost:5000'}/${image_url}`}
+                                                src={`${import.meta.env.VITE_API_ROOT || 'https://clinixa-frontend.onrender.com'}/${image_url}`}
                                                 alt={doctorName}
                                                 className="w-full h-full object-cover"
                                             />

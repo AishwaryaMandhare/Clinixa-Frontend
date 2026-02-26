@@ -105,7 +105,7 @@ const DoctorsPage = () => {
                                                     {doctor.image_url ? (
                                                         <div className="w-full h-full">
                                                             <img
-                                                                src={`${import.meta.env.VITE_API_ROOT || 'http://localhost:5000'}/${doctor.image_url}`}
+                                                                src={`${import.meta.env.VITE_API_ROOT || 'https://clinixa-frontend.onrender.com'}/${doctor.image_url}`}
                                                                 alt={doctor.name}
                                                                 className="w-full h-full object-cover rounded-[28px]"
                                                                 onError={(e) => {

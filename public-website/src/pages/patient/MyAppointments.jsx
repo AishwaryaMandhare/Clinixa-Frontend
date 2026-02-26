@@ -73,7 +73,7 @@ const MyAppointments = () => {
                                         <div className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center text-primary font-bold shadow-sm shadow-primary/10 overflow-hidden border-2 border-white">
                                             {appt.image_url ? (
                                                 <img
-                                                    src={`${import.meta.env.VITE_API_ROOT || 'http://localhost:5000'}/${appt.image_url}`}
+                                                    src={`${import.meta.env.VITE_API_ROOT || 'https://clinixa-frontend.onrender.com'}/${appt.image_url}`}
                                                     alt={appt.doctor_name}
                                                     className="w-full h-full object-cover"
                                                     onError={(e) => {
