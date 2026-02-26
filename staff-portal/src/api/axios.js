@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const ROOT_API_BASE = import.meta.env.VITE_API_ROOT || 'http://localhost:5000';
+const ROOT_API_BASE = import.meta.env.VITE_API_ROOT || 'https://clinixa-frontend.onrender.com';
 const STAFF_API_BASE =
     import.meta.env.VITE_STAFF_API || `${ROOT_API_BASE}/api/staff`;
 

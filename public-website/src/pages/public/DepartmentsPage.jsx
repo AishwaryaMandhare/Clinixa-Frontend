@@ -15,9 +15,17 @@ const iconMap = {
   "Lab": Microscope
 };
 
+// const getImageUrl = (url) => { use this when backend is running in local host
+//   if (!url) return null;
+//   return url.startsWith('http') ? url : `http://localhost:5000/${url}`;
+// };
+
 const getImageUrl = (url) => {
   if (!url) return null;
-  return url.startsWith('http') ? url : `http://localhost:5000/${url}`;
+
+  return url.startsWith("http")
+    ? url
+    : `https://clinixa-backend.onrender.com/${url}`;
 };
 
 const departmentImageMap = {
