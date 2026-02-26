@@ -54,7 +54,7 @@ const departmentImageMap = {
 
 const getImageUrl = (url) => {
   if (!url) return null;
-  return url.startsWith('http') ? url : `http://localhost:5000/${url}`;
+  return url.startsWith('http') ? url : `https://clinixa-frontend.onrender.com/${url}`;
 };
 
 const getDeptImage = (name) => {

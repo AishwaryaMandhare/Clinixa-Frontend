@@ -19,13 +19,11 @@ const iconMap = {
 //   if (!url) return null;
 //   return url.startsWith('http') ? url : `http://localhost:5000/${url}`;
 // };
-
 const getImageUrl = (url) => {
   if (!url) return null;
-
-  return url.startsWith("http")
+  return url.startsWith('http')
     ? url
-    : `https://clinixa-backend.onrender.com/${url}`;
+    : `https://clinixa-frontend.onrender.com/${url}`;
 };
 
 const departmentImageMap = {
