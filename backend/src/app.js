@@ -38,7 +38,7 @@ uploadDirs.forEach(dir => {
 
 // Middleware
 app.use(cors({
-    origin: ['http://localhost:5173', 'http://localhost:5174', 'http://localhost:5175', process.env.FRONTEND_URL],
+    origin: ['http://localhost:5173', 'http://localhost:5174', 'http://localhost:5175', process.env.FRONTEND_URL, 'https://clinixa-frontend-afd7.vercel.app', 'https://clinixa-frontend.vercel.app'],
     credentials: true
 }));
 app.use(express.json());
